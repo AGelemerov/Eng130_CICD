@@ -40,11 +40,12 @@ Jenkins is a self-contained, open source automation server which can be used to 
  - Easy environment configuration in user interface
  - Supports distributed builds with master-slave architecture
 
-## Steps
+## Steps to create CI
  1. Create a new CICD pipeline
  2. Generate new SSH keypair (ensure to generate it in .ssh folder on localhost)
  3. Copy `eng130_jenkins_angel.pub` to gihub repo
  4. Copy the private key in Jenkins
  5. Create job to test the CI
 
-TESTING nineth
+## Steps to create CD
+![cdsteps](images/cd.png)
