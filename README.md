@@ -18,6 +18,7 @@ Continuous Deployment goes one step further than continuous delivery, with this 
  - No human interaction unless a test has failed
  - Fully autonomous release
 
+![cicdcde_difference](images/cicdcde_difference.png)
 ## CICD rundown
 
 All about automating:
@@ -40,6 +41,7 @@ Jenkins is a self-contained, open source automation server which can be used to 
  - Easy environment configuration in user interface
  - Supports distributed builds with master-slave architecture
 
+![jenkins](images/jenkins.png)
 ## Steps to create CI
  1. Create a new CICD pipeline
  2. Generate new SSH keypair (ensure to generate it in .ssh folder on localhost)
